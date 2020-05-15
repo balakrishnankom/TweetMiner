@@ -1,0 +1,13 @@
+port : 6060
+table_size : 50
+max_queue_size : 100
+
+host1 : localhost
+host2 : localhost
+host3 : localhost
+host4 : localhost
+host5 : localhost
+host6 : localhost
+host7 : localhost
+host8 : localhost
+host9 : localhost

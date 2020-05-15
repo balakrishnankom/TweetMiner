@@ -1,0 +1,13 @@
+module RoomBooking
+{
+	interface RoomBookingInterface
+	{
+	
+		string createRoom(in string no,in string date,in string timeslot,in string username);
+		string deleteRoom(in string no,in string date,in string timeslot,in string username);
+		string bookRoom(in string no,in string date,in string timeslot,in string username,in string campus);
+		string cancelBooking (in string bookingID,in string username,in string campus);
+		string getAvailableTimeSlot(in string date,in string username,in string campus);
+		string changeReservation(in string bookingID,in string username,in string campus,in string newroomno,in string newdate,in string newtimeslot); 
+	};
+};
